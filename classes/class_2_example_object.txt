@@ -1,0 +1,15 @@
+Tork Napkins
+material = "Recycled Fibers"
+color = 'tan'
+is_recyclable = (false)
+brand = "Tork"
+amount_per_package = 50.0
+is_used = (false)
+
+
+
+show_max_amount: amount_per_package = 50.0
+use_napkin: is_used = true
+exterior: color = 'tan/red'
+current_napkins: current_amount = 49.0
+recycle: is_recyclable = (true)
