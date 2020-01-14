@@ -1,0 +1,13 @@
+Napkins
+material (string)
+color (string)
+is_recyclable (boolean)
+brand (string)
+amount_per_package (float)
+is_used (boolean)
+
+Methods:
+show_amount: ( sets amount_per_package)
+use_napkin: (sets is_used to true)
+recycle: (sets is_recyclable to true)
+exterior (checks is_used if true, modify color)
