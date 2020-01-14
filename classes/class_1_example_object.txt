@@ -1,0 +1,12 @@
+Wells Flat Top grill
+is_off = (true)
+Current_temperature = 0.0
+color = 'silver'
+Max_temperature = 400.0
+grill_occupied = (false)
+
+
+turn_on: set is_off = (false)
+increase_current_temperature: Current_temperature + 15
+calculate_degrees: Current_temperature = 15
+cooking: grill_occupied = true
