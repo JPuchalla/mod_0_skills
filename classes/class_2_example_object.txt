@@ -10,6 +10,6 @@ is_used = (false)
 
 show_max_amount: amount_per_package = 50.0
 use_napkin: is_used = true
-exterior: color = 'tan/red'
-current_napkins: current_amount = 49.0
+change_exterior: color = 'tan/red'
+show_current_napkins: current_amount = 49.0
 recycle: is_recyclable = (true)
