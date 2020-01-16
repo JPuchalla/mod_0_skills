@@ -7,7 +7,7 @@ amount_per_package (float)
 is_used (boolean)
 
 Methods:
-show_amount: ( sets amount_per_package)
-use_napkin: (sets is_used to true)
-recycle: (sets is_recyclable to true)
+show_amount: (modify amount_per_package)
+use_napkin: (modify is_used to true)
+recycle: (modify is_recyclable to true)
 exterior (checks is_used if true, modify color)
