@@ -5,9 +5,11 @@ is_recyclable (boolean)
 brand (string)
 amount_per_package (float)
 is_used (boolean)
+current_amount (float)
 
 Methods:
 show_amount: (modify amount_per_package)
 use_napkin: (modify is_used to true)
 recycle: (modify is_recyclable to true)
 change_exterior (checks is_used if true, modify color)
+show_current_amount (modify's current_amount)
