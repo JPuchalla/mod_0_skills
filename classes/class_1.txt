@@ -1,4 +1,4 @@
-grill
+Grill
 Attr:
 is_off (boolean)
 Current_temperature = (float)
@@ -7,7 +7,7 @@ Max_temperature = (float)
 grill_occupied = (boolean)
 
 Methods:
-turn_on: (set is_off = false)
+turn_on: (modify is_off = false)
 calculate_degrees: (Current_temperature / Max_temperature)
-increase_current_temperature: (increase Current_temperature + 15)
-cooking: (grill_occupied = true)
+increase_current_temperature: (modify Current_temperature + 15)
+cooking: (modify grill_occupied = true)
