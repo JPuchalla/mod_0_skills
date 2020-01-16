@@ -1,4 +1,4 @@
-Tork Napkins
+TorkNapkins
 material = "Recycled Fibers"
 color = 'tan'
 is_recyclable = (false)
